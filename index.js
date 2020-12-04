@@ -13,8 +13,6 @@ module.exports = function(name='data') {
         if (err) console.error(err)
         obj[prop] = JSON.parse(row.data)
         
-        console.log(obj[prop])
-        
         return obj[prop]
       })
     },
